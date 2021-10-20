@@ -16,12 +16,25 @@
         <input id="userName" class="form-control" type="text">
       </div>
       <div id="form-group">
-        <label for="description"></label>
+        <label for="description">Description</label>
         <input id="description" class="form-control" type="text">
       </div>
+      <div id="form-group">
+        <label for="date">Date</label>
+        <input type="date" id="date" value="10-20-2021" min="10-20-2021" max="12-31-2099">
+      </div>
+      <div id="form-group">
+        <label for="start-time">Choose a time for your appointment:</label>
+        <Input type="time" id="start" min="07:00" max="18:00" required>
+      </div>
+      <div id="form-group">
+        <label for="end-time">Choose a time for your appointment:</label>
+        <Input type="time" id="End" min="07:00" max="18:00" required>
+      </div>
     </form>
+    <button type="submit" class="btn">Book appointment.</button>
   </div>
 </body>
 </html>
 
-<!-- Name, description, start and end times. new page that says appointment successful -->
+<!-- *Name, *description, *date, start and end times. new page that says appointment successful -->
